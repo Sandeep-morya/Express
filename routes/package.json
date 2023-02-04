@@ -1,0 +1,14 @@
+{
+  "name": "routes",
+  "version": "1.0.0",
+  "description": "route example",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"server\""
+  },
+  "author": "Sandeep-morya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
