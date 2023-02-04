@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form-Upload</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		
+		<form action="/files" method="post" enctype="multipart/form-data">
+			<h1><strong>File upload</strong> with style and pure CSS</h1>
+
+			<div class="form-group">
+				<label for="title"
+					>Title <span>Use title case to get a better result</span></label
+				>
+				<input type="text" name="title" id="title" class="form-controll" />
+			</div>
+			<div class="form-group">
+				<label for="caption"
+					>Caption <span>This caption should be descriptiv</span></label
+				>
+				<input type="text" name="caption" id="caption" class="form-controll" />
+			</div>
+
+			<div class="form-group file-area">
+				<label for="images"
+					>Images
+					<span>Your images should be at least 400x300 wide</span></label
+				>
+				<input
+					type="file"
+					name="images"
+					id="images"
+					required="required"
+					multiple="multiple" />
+				<div class="file-dummy">
+					<div class="success">Great, your files are selected. Keep on.</div>
+					<div class="default">Please select some files</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<button type="submit">Upload images</button>
+			</div>
+		</form>
+	</body>
+</html>

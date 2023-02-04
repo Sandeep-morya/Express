@@ -1,0 +1,40 @@
+[
+	{
+		"id": 1,
+		"title": "Sandeep",
+		"caption": "Good Evening",
+		"path": "uploads\\images\\1675493075811logo.png"
+	},
+	{
+		"id": 2,
+		"title": "Sandeep ",
+		"caption": "pic title",
+		"path": "uploads\\images\\1675493113414logo-min.png"
+	},
+	{
+		"id": 3,
+		"title": "Hero ",
+		"caption": "Profile pic",
+		"path": [
+			"uploads\\images\\1675493501185logo.png",
+			"uploads\\images\\1675493501187ei_1674407371542-removebg-preview (1).png",
+			"uploads\\images\\1675493501192logo-min.png"
+		]
+	},
+	{
+		"id": 4,
+		"title": "",
+		"caption": "",
+		"path": "uploads\\images\\1675494001255logo.png"
+	},
+	{
+		"id": 5,
+		"title": "",
+		"caption": "",
+		"path": [
+			"uploads\\images\\1675494020168logo.png",
+			"uploads\\images\\1675494020170ei_1674407371542-removebg-preview (1).png",
+			"uploads\\images\\1675494020175logo-min.png"
+		]
+	}
+]
