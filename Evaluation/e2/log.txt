@@ -1,0 +1,11 @@
+Method: GET | Route: /movies | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: GET | Route: /movies | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: GET | Route: /movies | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: DELETE | Route: /movies/1 | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: DELETE | Route: /series/1 | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: PATCH | Route: /series/1 | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: PATCH | Route: /series/1 | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: PATCH | Route: /series/1 | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: PATCH | Route: /series/2 | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: PATCH | Route: /series/2 | user-agent: Thunder Client (https://www.thunderclient.com)
+Method: DELETE | Route: /series/2?password=5567&role=admin | user-agent: Thunder Client (https://www.thunderclient.com)

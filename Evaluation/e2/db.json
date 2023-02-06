@@ -1,0 +1,7 @@
+{
+	"movies": [
+		{ "id": 2, "name": "Sandeep Maurya Giji" },
+		{ "id": 3, "name": "Sandeep Maurya Giji" }
+	],
+	"series": [{ "id": 3, "name": "Sandeep Maurya Giji" }]
+}

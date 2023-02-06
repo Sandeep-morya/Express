@@ -1,4 +1,4 @@
-export const isNumber = (param) => typeof param === "number"; 
+export const isNumber = (param) => typeof param === "number";
 
 export const isString = (param) => typeof param === "string";
 
@@ -6,20 +6,23 @@ export const isStringArray = (param) => {
 	if (!param || !Array.isArray(param) /* || !param.length */) {
 		return false;
 	}
-	let ans = true;
+
+	//arr = ['as', 's',2, 'dsd']
+	// let ans = true;
 	param.forEach((el) => {
 		if (!isString(el)) {
-			ans = false;
+			console.log(el,typeof el)
+			return false;
 			// return false is not working i dont know why ?
 		}
 	});
-	return ans;
+	return true;
 };
 
 const validation = (req, res, next) => {
 
 	// const start = new Date().getTime();
-	
+
 	if (req.url === "/" && req.method === "POST") {
 		const {
 			body: { ID, Name, Rating, Description, Genre, Cast },
@@ -41,7 +44,7 @@ const validation = (req, res, next) => {
 			res.status(400).send();
 		}
 	}
-	
+
 	next();
 
 	// const end = new Date().getTime();
@@ -50,7 +53,7 @@ const validation = (req, res, next) => {
 
 export default validation;
 
-/* 
+/*
 {
 "ID":5,
 "Name":"Hero",
